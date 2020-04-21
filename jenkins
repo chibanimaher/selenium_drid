@@ -2,7 +2,7 @@ node {
 stage('SCM Checkout'){
 git 'https://github.com/chibanimaher/selenium_drid'
 }
-stage('Compile-Package){
+stage('Compile-Package'){
 sh 'mvn package'
 }
 }
