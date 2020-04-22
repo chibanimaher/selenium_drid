@@ -2,15 +2,30 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-21T19:56:36 CEST" name="Suite" finished-at="2020-04-21T19:56:49 CEST" duration-ms="13409">
+  <suite started-at="2020-04-22T15:19:06 CEST" name="Suite" finished-at="2020-04-22T15:19:15 CEST" duration-ms="9085">
     <groups>
     </groups>
-    <test started-at="2020-04-21T19:56:36 CEST" name="Test" finished-at="2020-04-21T19:56:49 CEST" duration-ms="13409">
+    <test started-at="2020-04-22T15:19:06 CEST" name="Test" finished-at="2020-04-22T15:19:15 CEST" duration-ms="9085">
       <class name="jenk.SEl">
-        <test-method signature="test()[pri:0, instance:jenk.SEl@add0edd]" started-at="2020-04-21T19:56:36 CEST" name="test" finished-at="2020-04-21T19:56:49 CEST" duration-ms="13344" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:jenk.SEl@37918c79]" started-at="2020-04-22T15:19:06 CEST" name="setup" finished-at="2020-04-22T15:19:06 CEST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:jenk.SEl@37918c79]" started-at="2020-04-22T15:19:06 CEST" name="test" finished-at="2020-04-22T15:19:13 CEST" duration-ms="7241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:jenk.SEl@37918c79]" started-at="2020-04-22T15:19:13 CEST" name="tearDown" finished-at="2020-04-22T15:19:15 CEST" duration-ms="1701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=SEl.test()[pri:0, instance:jenk.SEl@37918c79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- jenk.SEl -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
